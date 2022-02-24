@@ -2,6 +2,8 @@
 ## comandos
 * ng new todo_list
 * ng serve
+* npm i bootstrap
+* npm i bootstrap@3
 
 ## comandos criação
 * ng generate component xyz
