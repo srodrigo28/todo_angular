@@ -5,6 +5,9 @@
 * npm i bootstrap
 * npm i bootstrap@3
 
+## Como publicar
+* https://www.youtube.com/watch?v=HxeuNAXFGe8
+
 ## comandos criação
 * ng generate component xyz
 * ng g c components
