@@ -17,6 +17,9 @@
 ### ng g module
 * ng g module tarefas
 
+### ng g service
+* ng g service tarefas/shared/tarefa
+
 ### Link do curso de base link referências
 * https://www.udemy.com/course/formacao-angular-inicio-criando-7-projetos/learn/lecture/7071690#overview
 * Deploy aplicação
