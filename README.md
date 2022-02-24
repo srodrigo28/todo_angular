@@ -19,6 +19,8 @@
 
 ### Link do curso de base
 * https://www.udemy.com/course/formacao-angular-inicio-criando-7-projetos/learn/lecture/7071690#overview
+
+### Valores acrevado com atividade
 * Criar um CRUD
 * Aprender a utilizar Rotas
 * Aprender a criar formulários
