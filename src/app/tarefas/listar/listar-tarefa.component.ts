@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+
 import { TarefaService, Tarefa } from '../shared';
 
 @Component({
@@ -12,17 +13,14 @@ export class ListarTarefaComponent implements OnInit {
 
   constructor(private tarefaService: TarefaService) {}
 
-  ngOnInit(): void {
-    this.tarefaService.listarTodos();
-    // this.tarefas = [
-    //   new Tarefa(1, "Tarefa 1", false),
-    //   new Tarefa(1, "Tarefa 2", true),
-    //   new Tarefa(1, "Tarefa 3", false),
-    // ]
+  ngOnInit() {
+  	this.tarefas = this.listarTodos();
   }
+
   listarTodos(): Tarefa[] {
   	return this.tarefaService.listarTodos();
   }
+
   remover($event: any, tarefa: Tarefa): void {
     $event.preventDefault();
     if (confirm('Deseja remover a tarefa "' + tarefa.nome + '"?')) {
@@ -30,6 +28,7 @@ export class ListarTarefaComponent implements OnInit {
       this.tarefas = this.listarTodos();
     }
   }
+
   alterarStatus(tarefa: Tarefa): void {
     if (confirm('Deseja alterar o status da tarefa "' + tarefa.nome + '"?')) {
       this.tarefaService.alterarStatus(tarefa.id);

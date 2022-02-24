@@ -1,4 +1,4 @@
-<h1>Cadastrar tarefa</h1>
+<h1>Editar tarefa</h1>
 
 <div class="well">
   <form #formTarefa="ngForm">
@@ -26,9 +26,9 @@
     <div class="form-group text-center">
       <input 
         type="submit"
-        class="btn btn-success" 
-        (click)="cadastrar()"
-        value="Cadastrar"
+        class="btn btn-success"
+        (click)="atualizar()"
+        value="Atualizar"
         [disabled]="!formTarefa.form.valid">
       <a [routerLink]="['/tarefas']"
         class="btn btn-default">
