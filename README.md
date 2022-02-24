@@ -17,9 +17,14 @@
 ### ng g module
 * ng g module tarefas
 
-### Link do curso de base
+### Link do curso de base link referências
 * https://www.udemy.com/course/formacao-angular-inicio-criando-7-projetos/learn/lecture/7071690#overview
-
+* Deploy aplicação
+    * https://www.youtube.com/watch?v=LvYXiOh3vZ4
+* Crud angular com Material
+    * https://www.youtube.com/watch?v=aPU1YawBWN8
+* Angular datatable material
+    * https://www.youtube.com/watch?v=odzjhkUgZuM&t=748s
 ### Valores acrevado com atividade
 * Criar um CRUD
 * Aprender a utilizar Rotas
