@@ -1,0 +1,12 @@
+Nota sobre o ViewChild do vídeo a seguir
+No vídeo a seguir introduziremos um novo elemento, o ViewChild, que será explicado em detalhes na aula.
+
+No Angular atual devido a algumas alterações no processo de compilação do mesmo, foi adicionado um segundo parâmetro ao elemento @ViewChild que utilizaremos a seguir.
+
+Portanto se você estiver acompanhando o curso com o Angular mais recente, no vídeo a seguir quando implementar a seguinte linha de código:
+
+@ViewChild('formTarefa') formTarefa: NgForm;
+
+Tenha certeza de incluir o novo atributo, ficando da seguinte forma:
+
+@ViewChild('formTarefa', { static: true }) formTarefa: NgForm;
