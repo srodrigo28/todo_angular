@@ -1,5 +1,5 @@
 # Angular
-## comandos
+## Comandos principais
 * ng new todo_list
 * ng serve
 * npm i bootstrap
@@ -8,7 +8,7 @@
 ## Como publicar
 * https://www.youtube.com/watch?v=HxeuNAXFGe8
 
-## comandos criação
+## Comandos para criação
 * ng generate component xyz
 * ng g c components
 
@@ -17,6 +17,7 @@
 ### ng g module
 * ng g module tarefas
 
+### Link do curso de base
 * https://www.udemy.com/course/formacao-angular-inicio-criando-7-projetos/learn/lecture/7071690#overview
 * Criar um CRUD
 * Aprender a utilizar Rotas
