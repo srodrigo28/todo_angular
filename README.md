@@ -1,4 +1,12 @@
 # Angular
+## comandos
+* ng new todo_list
+* ng serve
+
+## comandos criação
+* ng generate component xyz
+* ng g c components
+
 * https://www.udemy.com/course/formacao-angular-inicio-criando-7-projetos/learn/lecture/7071690#overview
 * Criar um CRUD
 * Aprender a utilizar Rotas
