@@ -2,7 +2,11 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
-  
+  {
+    path: '',
+    redirectTo: '/tarefas/listar',
+    pathMatch: 'full'
+  }
 ];
 
 @NgModule({
