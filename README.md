@@ -1,4 +1,4 @@
-# Angular
+# Angular Atualizar
 ## Comandos principais
 * ng new todo_list
 * ng serve
