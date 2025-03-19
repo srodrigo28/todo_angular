@@ -1,9 +1,20 @@
-# Angular Atualizar 3
+# Angular 13 Udemy
+
+## Telas
+
+### > Cadastro
+
+<img src="./screens/tela_cadastro.png" alt="Cadastro">
+
 ## Comandos principais
 * ng new todo_list
 * ng serve
 * npm i bootstrap
 * npm i bootstrap@3
+
+
+### Link do curso de base link referências
+* https://www.udemy.com/course/formacao-angular-inicio-criando-7-projetos/learn/lecture/7071690#overview
 
 ## Como publicar
 * https://www.youtube.com/watch?v=HxeuNAXFGe8
@@ -24,8 +35,6 @@
 * ng g component tarefas/listar-tarefa
 * ng g component tarefas/cadastrar-tarefa
 
-### Link do curso de base link referências
-* https://www.udemy.com/course/formacao-angular-inicio-criando-7-projetos/learn/lecture/7071690#overview
 * Deploy aplicação
     * https://www.youtube.com/watch?v=LvYXiOh3vZ4
 * Crud angular com Material
